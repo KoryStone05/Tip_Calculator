@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(to right, #DBFEB8, #93B1A7);
+
+}
+
+#container {
+    background-color: white;
+    height: 525px;
+    width: 360px;
+
+    margin: 100px auto; /* Give the element a margin of 100px on the top and bottom and automatically calculate the left and right margin to center it horizontally */
+
+    border-radius: 20px; /* Round off the edges of the element */
+
+    box-shadow: 10px 10px 5px black; /* Box-shadow properties: horizontal offset (required), vertical offset (required), blur   (optional), spread (optional), and color (optional) */
+
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 100px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+p {
+    padding-left: 20px;
+}
+
+#billAmt {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+#billAmt:focus {
+    border: 3px solid;
+    outline: none;
+}
