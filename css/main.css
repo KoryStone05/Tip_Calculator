@@ -32,12 +32,33 @@ p {
     padding-left: 20px;
 }
 
-#billAmt {
+#billAmt, #serviceQual, #numPeople { /* Elements with the ID of billAmt, serviceQual, and numPeople will receive these styles */
     margin-left: 20px;
     font-size: 14px;
 }
 
-#billAmt:focus {
+#billAmt:focus, #serviceQual:focus, #numPeople:focus {
     border: 3px solid;
+    outline: none;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    font-size: 20pt;
+    background-color: green;
+    color: white;
+}
+
+button:hover {
+    background-color: #93B1A7;
+    cursor: pointer;
+}
+
+button:focus {
     outline: none;
 }
