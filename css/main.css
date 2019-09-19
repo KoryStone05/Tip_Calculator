@@ -62,3 +62,9 @@ button:hover {
 button:focus {
     outline: none;
 }
+
+#tipAmount {
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+}
