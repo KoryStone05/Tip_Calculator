@@ -50,7 +50,7 @@ var totalPerPerson = amount / people + tipPerPerson;
 
 tipPerPerson = tipPerPerson.toFixed(2); //Round the tipPerPerson to 2 decimal points
 
-totalPerPerson.toFixed(2);
+totalPerPerson = totalPerPerson.toFixed(2);
 
 //Display that information to the user.
 
