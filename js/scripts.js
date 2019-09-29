@@ -55,11 +55,6 @@ document.getElementById("tipAmount").style.display = "block"; //Display the hidd
 
 document.getElementById("tip").innerText = tipPerPerson;
 
-if (people === "1") {
-    document.getElementById("each").style.display = "none";
-} 
-   
-
 }
 
 
